@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ramen Rater</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script defer type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <h3>Alcoholics Not Anonymous - <i>Margaritas</i></h3>
+  </header>
+
+  <!-- Ramen Menu -->
+  <div id="cocktail-menu">
+    <!-- Ramen Images Here -->
+   <!--<img src=""> --> 
+  </div>
+
+  <!-- Ramen Details -->
+ <div class="flex-container">
+  <div class="formdiv"> <!-- New margarita Form -->
+    <form id="new-margarita" class="sidebar">
+      <h4>Add New Margarita</h4>
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="new-name" />
+      <label for="ingredients">Ingredients: </label>
+      <input type="text" name="ingredients" id="new-ingredients" />
+      <label for="image">Image: </label>
+      <input type="text" name="image" id="new-image" />
+      <label for="new-instructions">Instructions: </label>
+      <textarea name="new-instructions" id="new-instructions"></textarea>
+      <input type="submit" value="Create" />
+    </form>
+   </div>
+  
+  
+  <div class="posterDiv">
+    <div id="ramen-detail">
+     <img class="detail-image" src="https://tse4.mm.bing.net/th?id=OIP.kg-20_cY1gbPHITtwGWy4QHaLH&pid=Api" alt="Insert Name Here" />
+     <h3 class="name">Choose Your Poison</h3>
+    </div>
+   <div id="listdiv">
+    <h3><b>Ingredients:</b></h3>
+    <ul id="ingre">
+    </ul>
+    <h3 id="intrusion">Instructions:</h3>
+    <p id='instruction-display' name="instructions">
+    </p>
+  </div>
+ </div>
+  <div id="'btnDiv" width="600px">
+   <input type="button" id="btnSearch" value="SURPRISE ME" onclick = "loveMe()"/>
+   <p id="message"></p>
+   </div>
+  </div>
+</body>
+
+</html>
